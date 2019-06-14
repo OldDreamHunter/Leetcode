@@ -15,15 +15,17 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 """
 
 import numpy.array as array
+
+
 class binaryTree(object):
-    def __init__(self,val):
+    def __init__(self, val):
         self.val = val
         self.left = None
         self.right = None
 
 
 class solution(object):
-    def recursivePreOrderTraversal(self,root):
+    def recursivePreOrderTraversal(self, root):
         """
         :param root:
         :return:
@@ -38,7 +40,7 @@ class solution(object):
 
         # 栈是先入后出，队列是先进先出
 
-    def preOrderTravel(self,root):
+    def preOrderTravel(self, root):
         stack = list()
         if root == None:
             return
@@ -51,13 +53,14 @@ class solution(object):
             elif valNode.left != None:
                 stack.append(valNode.left)
 
-
-
-
-
-
-
-
-
-
-
+    def preorderTraversal(self, root):
+        stack = list()
+        result = list()
+        stack.append(root)
+        if not root: return result
+        while stack:
+            curr = stack.pop()
+            result.append(curr.val)
+            if curr.right: stack.append(curr.right)
+            if curr.left: stack.append(curr.left)
+        return result

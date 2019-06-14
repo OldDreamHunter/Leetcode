@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7903125b-56e8-4f92-ac53-ec6b94a620da" name="Default Changelist" comment="" />
+    <list default="true" id="7903125b-56e8-4f92-ac53-ec6b94a620da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Tree/BinaryTree_InorderPreorderPostorder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Tree/Binary_Inorder_Tree_Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Tree/Binary_Inorder_Tree_Traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Tree/Binary_PostOrder_Tree_Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Tree/Binary_PostOrder_Tree_Traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Tree/Binary_Preorder_Tree_Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Tree/Binary_Preorder_Tree_Traversal.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Math/power3.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Binary Tree/Binary_Inorder_Tree_Traversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="498">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Binary Tree/BinaryTree_InorderPreorderPostorder.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Binary Tree/Binary_PostOrder_Tree_Traversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="556">
+              <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -37,6 +44,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -46,8 +56,6 @@
         <option value="$PROJECT_DIR$/ARRAY/valid_parentheses.py" />
         <option value="$PROJECT_DIR$/Heap/Kth Largest Element in a Stream.py" />
         <option value="$PROJECT_DIR$/Binary Tree/144_Binary_Preorder_Tree_Traversal.py" />
-        <option value="$PROJECT_DIR$/Binary Tree/Binary_Inorder_Tree_Traversal.py" />
-        <option value="$PROJECT_DIR$/Binary Tree/Binary_PostOrder_Tree_Traversal.py" />
         <option value="$PROJECT_DIR$/Binary Tree/Binary_LevelOrder_Tree_Traversal.py" />
         <option value="$PROJECT_DIR$/Binary Tree/same_tree.py" />
         <option value="$PROJECT_DIR$/Two_Sum.py" />
@@ -81,13 +89,19 @@
         <option value="$PROJECT_DIR$/Binary Tree/Symmetric_tree.py" />
         <option value="$PROJECT_DIR$/Math/power3.py" />
         <option value="$PROJECT_DIR$/Binary Tree/BinaryTree_InorderPreorderPostorder.py" />
+        <option value="$PROJECT_DIR$/Binary Tree/Binary_Preorder_Tree_Traversal.py" />
+        <option value="$PROJECT_DIR$/Binary Tree/Binary_Inorder_Tree_Traversal.py" />
+        <option value="$PROJECT_DIR$/Binary Tree/Binary_PostOrder_Tree_Traversal.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -97,12 +111,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="Binary Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -113,6 +127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -266,9 +281,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21282594" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15068494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -281,7 +297,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.25060242" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.18872017" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -302,31 +318,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Binary Tree/Binary_Preorder_Tree_Traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary Tree/Binary_Inorder_Tree_Traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Binary Tree/Binary_LevelOrder_Tree_Traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary Tree/Binary_PostOrder_Tree_Traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -542,6 +537,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Binary Tree/BinaryTree_InorderPreorderPostorder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary Tree/Binary_Preorder_Tree_Traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Math/power3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -549,10 +558,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Binary Tree/BinaryTree_InorderPreorderPostorder.py">
+    <entry file="file://$PROJECT_DIR$/Binary Tree/Binary_PostOrder_Tree_Traversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="556">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary Tree/Binary_Inorder_Tree_Traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
         </state>
       </provider>
     </entry>

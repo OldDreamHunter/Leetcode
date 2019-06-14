@@ -27,3 +27,15 @@ class nodeTree(object):
         self.recursPostOrderTree(root.right)
         self.list.append(root.val)
         return self.list
+
+    def stackPostOrderTree(self, root):
+        if root == None: return
+        temp = root
+        self.stack.append(temp)
+        while self.stack:
+            temp = self.stack.pop()
+            self.result.append(temp.val)
+            if temp.left: self.stack.append(temp.left)
+            if temp.right: self.stack.append(temp.right)
+        return self.result[::-1]
+

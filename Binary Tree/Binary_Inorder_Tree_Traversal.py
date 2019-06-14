@@ -34,6 +34,27 @@ class Solution(object):
             temp = temp.right
         return self.result
 
+    def recursionInorderTraversal(self, root):
+        if not root: return
+        self.recursinorderTraversal(self.left)
+        self.result.append(root.val)
+        self.recursionInorderTraversal(self.right)
+
+    def inorderTraversal(self, root):
+        temp = root
+        while temp or self.stack:
+            while temp:
+                self.stack.append(temp)
+                temp = temp.left
+            temp = self.stack.pop()
+            self.result.append(temp.val)
+            temp = temp.right
+        return self.result
+
+
+
+
+
 
 
 
