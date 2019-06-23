@@ -43,3 +43,45 @@ class solution(object):
             res.append(curLevel)
         return res
 
+    def levelOrderTraversal(self,root):
+        queue = deque([root])
+        res = list()
+        if root == None:
+            return res
+        while queue:
+            valueQ = len(queue)
+            curLevel = list()
+            for eachQ in range(valueQ):
+                tempNode = queue.popleft()
+                curLevel.append(tempNode.val)
+                if tempNode.left != None:
+                    queue.append(tempNode.left)
+                if tempNode.right != None:
+                    queue.append(tempNode.right)
+                res.append(curLevel)
+            res.append(curLevel)
+        return res
+
+    def zigzagLevelOrderTraversal(self, root):
+        queue = deque([root])
+        result = list()
+        if not root: return result
+        reverse = 0
+        while queue:
+            curLevel = list()
+            valueQ = len(queue)
+            for i in range(valueQ):
+                tempNode = queue.popleft()
+                curLevel.append(tempNode.val)
+                if tempNode.left: queue.append(tempNode.left)
+                if tempNode.right: queue.append(tempNode.right)
+            if reverse:
+                curLevel = curLevel[::-1]
+                reverse = 0
+            else:
+                reverse = 1
+            result.append(curLevel)
+        return result
+
+
+
