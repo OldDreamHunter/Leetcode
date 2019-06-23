@@ -1,6 +1,39 @@
 # Binary Tree
 
 * 生成二叉树
+  * [Construct Binary Tree from Preorder and Inorder Traversal (Inorder and Postorder)](https://link.zhihu.com/?target=http%3A//blog.csdn.net/qqxx6661/article/details/75905524)
+    根据二叉树的前序遍历和中序遍历（中序和后序）结果生成二叉树 
+
+    inorder and postorder
+
+    如果根据中序和后序生成二叉树，有一点值得注意的是，需要先生成右子树，因为这个过程中才会把右子树节点全部从postorder中pop出去
+
+    preorder and inorder
+
+    
+
+    
+
+    **递归**
+
+  * [Convert Sorted Array to Binary Search Tree](https://link.zhihu.com/?target=http%3A//blog.csdn.net/qqxx6661/article/details/76100836)
+    将一个排序好的**数组**转换为一颗二叉查找树，这颗二叉查找树要求是平衡的。 
+    [Convert Sorted List to Binary Search Tree](https://link.zhihu.com/?target=http%3A//blog.csdn.net/qqxx6661/article/details/76168244)
+    将一个排序好的**链表**转换为一颗二叉查找树，这颗二叉查找树要求是平衡的。 
+    **递归**
+
+  * [Unique Binary Search Trees](https://link.zhihu.com/?target=http%3A//blog.csdn.net/qqxx6661/article/details/76285972)
+    给定一个数n，求1-n这n个数能生成多少个二叉查找树 
+    **动态规划**
+    **卡特兰数（组合数学）**
+
+  * [Unique Binary Search Trees II](https://link.zhihu.com/?target=http%3A//blog.csdn.net/qqxx6661/article/details/76360113)
+    给出一个n，求1-n能够得到的所有二叉搜索树，输出所有树 
+    **递归**
+
+    **较难**
+
+    
 
 * 遍历二叉树
 
