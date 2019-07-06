@@ -12,3 +12,7 @@ Output:
   [3,2,1]
 ]
 """
+
+class solution(object):
+    def _permutation(self):
+        pass
