@@ -1,10 +1,20 @@
 class solution(object):
-    def gray(self, num):
-        res = []
-        self.backtrack(num,0,[],res)
+    def grayCode(self,num):
+        tempNumList = ['0','1']
+        for i in range(num-1):
+            tempNumList = self.mirror(tempNumList)
+        tempNumList = list(map(lambda x:int(x,2),tempNumList))
+        return tempNumList
 
-    def backtrack(self,num,index,path,res):
-        if len(path) == num: res.append(path)
-        for eachnum in ['0','1']:
+    def mirror(self,numlist):
+        mirrornums = numlist[::-1]
+        nums = numlist
+        mirrornums = list(map(lambda x:'1'+x,mirrornums))
+        nums = list(map(lambda x:'0'+x,nums))
+        numlist = nums + mirrornums
+        return numlist
 
+if __name__ == '__main__':
+    problem = solution()
+    print(problem.grayCode(2))
 
