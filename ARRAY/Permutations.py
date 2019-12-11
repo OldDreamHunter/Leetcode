@@ -15,4 +15,3 @@ Output:
 
 class solution(object):
     def _permutation(self):
-        pass
